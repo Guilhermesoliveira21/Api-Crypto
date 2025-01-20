@@ -1,6 +1,0 @@
-# Visão Geral - API CryptoX
-
-Esta API permite que os usuários se registrem, façam login e acessem dados de criptomoedas. Ela integra-se com o Yahoo Finance para buscar preços de criptomoedas, processa os dados e os fornece apenas para usuários autenticados.
-
-## URL Base
-**http://localhost:3000**
