@@ -40,5 +40,8 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/sua-repositorio.git
-   cd sua-repositorio
+   git clone https://github.com/Guilhermesoliveira21/Api-Crypto.git
+
+   npm install
+
+   npm start
