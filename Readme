@@ -1,52 +1,6 @@
-Regras de Negócio
+# Visão Geral - API CryptoX
 
-1. Investimentos
+Esta API permite que os usuários se registrem, façam login e acessem dados de criptomoedas. Ela integra-se com o Yahoo Finance para buscar preços de criptomoedas, processa os dados e os fornece apenas para usuários autenticados.
 
-* O usuário deve ter saldo suficiente na conta para investir.
-* Os investimentos podem ser divididos em tipos:
-* Renda Fixa: Ex.: Títulos com retorno garantido (CDB, Tesouro).
-* Renda Variável: Ex.: Ações, Criptomoedas, ETFs.
-* Calcular rendimento diário/total com base no tipo de investimento.
-* Taxas ou comissões podem ser aplicadas dependendo do tipo de operação.
-
-
-2. Apostas
-
-* Limite de aposta: O usuário só pode apostar até um percentual fixo (Ex.: 10%) do saldo total.
-* Implementar um sistema de odds (probabilidades) para ganhos e perdas.
-* Gerar alertas de risco caso o saldo do usuário fique muito baixo.
-* Estabelecer um limite diário de apostas para evitar vícios financeiros.
-
-
-3. Gastos Diários
-
-* Registro Automático: Gastos recorrentes são categorizados automaticamente (Ex.: aluguel).
-* Orçamentos podem ser configurados pelo usuário.
-* O sistema deve enviar alertas por email ou notificações se os gastos ultrapassarem o orçamento definido.
-* Cada gasto registrado deve ser vinculado a uma transação na conta.
-
-
-4. Operações Bancárias
-
-* Depósito: Pode ser feito via Pix, boleto ou transferência bancária.
-* Saque: Deve ser limitado ao saldo disponível, com uma taxa opcional.
-* Transferência: Entre contas do mesmo sistema sem taxa; para contas externas, aplicar uma taxa proporcional.
-* Fluxo de Uso para o Usuário
-* Criar Conta: O usuário cadastra dados básicos e cria uma carteira virtual.
-* Gerenciar Saldo: Adicionar fundos ou acompanhar o saldo disponível.
-* Escolher Ação: O usuário pode:
-* Investir: Escolher ativos e monitorar retornos.
-* Apostar: Selecionar um mercado e definir valores.
-* Registrar Despesas: Registrar manualmente ou sincronizar com cartões de crédito.
-* Operar: Transferir, sacar ou depositar fundos.
-* Monitoramento: Acompanhar o saldo, relatórios de ganhos, perdas e despesas.
-* Arquitetura Inicial
-* Banco de Dados:
-
-Tabelas:
-Usuários
-Transações
-Investimentos
-Apostas
-Gastos
-Relacionamentos claros entre essas tabelas.
+## URL Base
+**http://localhost:3000**
