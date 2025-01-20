@@ -41,7 +41,17 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
    ```bash
    git clone https://github.com/Guilhermesoliveira21/Api-Crypto.git
+   ```
 
+   ```bash
    npm install
-
+   ```
+   
+    ```bash
    npm start
+   ```
+2. Configure o banco
+    ```bash
+   DATABASE_URL="sua-url-do-banco"
+   ```
+   
